@@ -1,0 +1,117 @@
+#foto
+{
+    
+    width: 140px;
+    border: 5px;
+    border-style:solid;
+    border-color: #ebe7a7;
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-left: 45%;
+    margin-right: 45%;
+    z-index: 2;
+    
+}
+
+
+#foto:hover
+{
+    width: 12%;
+    ;
+}
+
+body
+{
+    background-color: #330F0A;
+    padding: 0;
+    margin: 0;
+}
+
+li
+{
+    color: #ebe7a7;
+}
+
+
+li:hover
+{
+    
+    font-size: 17px;
+}
+
+h1
+{
+    text-decoration:overline;
+    color: #e4ffd4;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+h3
+{
+    color:#edc68e;
+    text-align: center;
+}
+
+#skills
+{
+    border: 5px solid #394F49;    
+    border-style: groove;
+}
+
+#redes
+{
+    text-align: center;
+}
+
+#fotoEnome
+{
+   
+  background: url(universo5.jpg) center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h3
+{
+    font-size:medium;
+    font-family:'Courier New', Courier, monospace
+}
+
+#secoes ul 
+{
+    background-color:#330F0A;
+    text-align: center;
+}
+
+#secoes ul li a
+{
+    padding: 10px;
+    color:#330F0A;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#secoes li
+{
+    list-style: none;  
+    background-color:#edc68e;
+    display: inline-block;
+    
+}
+
+#secoes ul li a:hover
+{
+    background-color: #330F0A;
+     color:#edc68e;
+}
+
+#secoes li:last-child a
+{
+    border-style: groove;
+    background-color: black;
+    color: #ebe7a7;
+    display: inline-block;
+}
+
