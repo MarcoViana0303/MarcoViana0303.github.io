@@ -3,7 +3,9 @@ import Menu from './components/Menu';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Teste from './components/Teste';
-import Hobbies from './components/Hobbies';
+import Footer from './components/Footer';
+import Description from './components/Description';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       <Teste />
        <Menu />
       <AboutMe />
+      <Description />
       <Skills />
-      <Hobbies />
+      <Contact />
+      <Footer />
     </div>
   );
 }

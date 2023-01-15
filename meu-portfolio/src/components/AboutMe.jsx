@@ -1,14 +1,33 @@
 import React from "react";
 
-export default function AboutMe() {
+function AboutMe() {
+
+    const copy = require('clipboard-copy');
+
+    const copyButton = () => {
+      copy('marcoviana100@gmail.com')
+      alert('Email copiado para a área de transferência!')
+  }
     return(
-        <div className="about">
-            <section className="aboutMe">Brasileiro e natural da cidade de Suzano, passei a minha vida toda (até agora, aos 21 anos) 
- pelo Estado de São Paulo, hoje moro em Poá. aos 18 anos, dei início ao ramo imobiliário, na qual me dediquei por três anos.
-   Atualmente estou me aprofundando na área de Front-end, estudando programação web com a Trybe, uma escola incrível
- que estará me abrindo portas para o mercado de trabalho e me dando visão de um mundo profissional. </section>
-            <img src="/fotoperfil.jpg" alt="Marco Viana" />
-        </div>
-        
+        <section className="about home" id="home">
+          <div className="social">
+
+          <button onClick={copyButton}>
+          <i className="bx bxl-gmail"></i>
+          </button>
+  
+            <a href="https://www.linkedin.com/in/marco-viana2022/"><i className="bx bxl-linkedin-square"></i></a>
+            <a href="https://github.com/MarcoViana0303"><i className="bx bxl-github"></i></a>
+          </div>
+          <div className="home-img"> <img src="https://www.promoview.com.br/uploads/images/unnamed%2819%29.png" className="marquinho" alt="Marco Viana" /></div>
+          <div className="home-text">
+            <span>Olá, eu me chamo</span>
+            <h1>Marco Viana</h1>
+            <h2>Fullstack developer junior </h2>
+            <p className="aboutMe">Texto </p>
+          </div>
+        </section>
     )
 }
+
+export default AboutMe;

@@ -1,38 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Menu() {
+ const [darkMode, setDarkMode] = useState(false);
+ const isDarkMode = () => {
+  setDarkMode(!darkMode);
+}; 
+
+ const messageTemporary = () => {
+  alert('Botão dark-mode temporariamente desligado.')
+ };
     return(
-         <div>
-       {/*  <nav id="secoes">
-        <ul>
-            <li><a href="#description">Sobre mim</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#profiles">Perfis</a></li>
-            <li><a href="https://www.devmedia.com.br/" target="_blank">Blog: DevMedia</a></li>
+         <header>
+       <a className="navbar-brand opacity-50 logo" href="#home">{'<Marco Viana />'}</a>
 
-        </ul>
+       <div className="bx bx-menu" id="menu-icon"></div>
 
-
-    </nav> */}
-nav justify-content-end
-    <nav className="navbar navbar-expand-lg bg-body-tertiary" id="secoes">
-  <div className="container-fluid">
-    <a className="navbar-brand opacity-50" href="#home">{'< Marco Viana />'}</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
-        <a className="nav-link active" href="#description">Sobre mim</a>
-        <a className="nav-link" href="#skills">Skills</a>
-        <a className="nav-link" href="#hobbies">Hobbies</a>
-        <a className="nav-link" href="#profiles">Perfis</a>
-      </div>
-    </div>
-  </div>
-</nav>
-    </div>
+       <ul className="navbar">
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#social-media">Mídias sociais</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="#teste">Teste</a></li>
+        <div className="bx bxs-ghost" id="darkmode" onClick={messageTemporary}></div>
+       </ul> 
+      
+    </header> 
     )
 }
 
