@@ -2,7 +2,6 @@ import emailjs from 'emailjs-com'
 import React, { useRef } from "react";
 
 export default function Contact() {
-    const form = useRef();
     const message = 'Mensagem enviada com sucesso.'
 
     const sendEmail = (e) => {

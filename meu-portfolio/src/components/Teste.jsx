@@ -1,42 +1,47 @@
-import React from "react";
+import React, { Children, useState } from "react";
 
 export default function Teste() {
+  const [ changeMenu, setChangeMenu ] = useState(false);
+  const menuSectionOn = "menu-section on";
+  const menuSection = "menu-section";
+
+  const messageTemporary = () => {
+    alert('Botão dark-mode temporariamente desligado.')
+   };
+   
       return(
-        <div>
-        {/*   <header>
-    <a href="#" class="logo">Port <span> Flix</span>.</a>
+        <header>
+         
+         <a className="navbar-brand opacity-50 logo" href="#home">{'<Marco Viana />'}</a>
+   <div className={ changeMenu ? menuSectionOn : menuSection} onClick={() => setChangeMenu(!changeMenu)}>
 
-    <div class="bx bx-menu" id="menu-icon"></div>
+        <div className="mobile-menu">
+          
+        
+            <i className="bx bx-menu" id="menu-button"></i>
+        
 
-    <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
+          <nav>
+            <ul className="navbar">
+        <li><a href="#about">Sobre mim</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <div class="bx bx-moon" id="darkmode"></div>
-    </ul>
-</header> */}
+        <li><a href="#social-media">Mídias sociais</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a href="#teste">Teste</a></li>
+        <div className="bx bxs-ghost" id="darkmode" onClick={messageTemporary}></div>
+            </ul>
+          </nav>
 
-{/* <nav className="navbar navbar-expand-lg bg-body-tertiary" id="secoes">
-  <div className="container-fluid">
-    <a className="navbar-brand opacity-50" href="#home">{'<Marco Viana />'}</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
-        <ul>
-          <li><a href="#aboutMe" className="nav-link">Sobre mim</a></li>
-          <li><a href="#skills" className="nav-link">Skills</a></li>
-          <li><a href="#hobbies" className="nav-link">Hobbies</a></li>
-          <li><a href="#profiles" className="nav-link">Mídia social</a></li>
-          <li><a href="#contact" className="nav-link">Contato</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav> */}
+
+
         </div>
+
+   </div>
+       
+      
+        </header>
+    
+      
+  
     )  
 }

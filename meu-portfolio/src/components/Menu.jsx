@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 
 function Menu() {
- const [darkMode, setDarkMode] = useState(false);
- const isDarkMode = () => {
-  setDarkMode(!darkMode);
-}; 
+const [darkMode, setDarkMode] = useState(false);
 
  const messageTemporary = () => {
-  alert('Botão dark-mode temporariamente desligado.')
+  alert('Botão dark-mode temporariamente desligado.');
+  setDarkMode(!darkMode);
  };
     return(
          <header>
@@ -16,14 +14,17 @@ function Menu() {
        <div className="bx bx-menu" id="menu-icon"></div>
 
        <ul className="navbar">
+       <li><a href="#home">Início</a></li>
         <li><a href="#about">Sobre mim</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#social-media">Mídias sociais</a></li>
+        <li><a href="#projects">Projetos</a></li>
         <li><a href="#contact">Contato</a></li>
-        <li><a href="#teste">Teste</a></li>
         <div className="bx bxs-ghost" id="darkmode" onClick={messageTemporary}></div>
+        { darkMode && <audio autoPlay >
+  <source src={ require('../Audio/files_theme2.mp3')} type="audio/mp3" />
+</audio> }
        </ul> 
-      
+
     </header> 
     )
 }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Portfólio!</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="secoes">
+        <ul>
+            <li><a href="#descricao">Sobre mim</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#redes">Perfis</a></li>
+            <li><a href="https://www.devmedia.com.br/" target="_blank">Blog: DevMedia</a></li>
+
+        </ul>
+
+
+    </nav>
+
+
+    <div id="fotoEnome">
+      
+<p>
+    <h1>
+    Marco Antônio Maciel Viana
+    </h1>
+</p>
+    <img id="foto"src="/meu-portfolio/fotoperfil.jpg" alt="Foto mais recente">
+</div>
+
+<div>
+    <p>
+        <h3 id="descricao">
+ Brasileiro e natural da cidade de Suzano, passei a minha vida toda (até agora, aos 21 anos) 
+ pelo Estado de São Paulo, hoje moro em Poá. aos 18 anos, dei início ao ramo imobiliário, na qual me dediquei por três anos.
+   Atualmente estou me aprofundando na área de Front-end, estudando programação web com a Trybe, uma escola incrível
+ que estará me abrindo portas para o mercado de trabalho e me dando visão de um mundo profissional. 
+        </h3>
+    </p>
+</div>
+
+<p>
+    <ul>
+        <li><em>Conhecimento básico sobre <strong>Banco de Dados</strong> e <strong>PHP</strong></em></li>   
+        <li><em>Conhecimento básico sobre <strong>HTML</strong>, <strong>CSS</strong> e <strong>Javascript</strong></em></li>
+        <li><em><strong>Git</strong> e <strong>GitHub</strong></em></li>
+        <li><em><strong>Terminal</strong></em></li>
+
+    </ul>
+</p>
+
+<div id="skills">
+<p> <h3> Algumas das Skills em que estarei me aperfeiçoando com o apoio da Trybe</h3>
+    <ul>
+        <li><em>Empatia</em></li>
+        <li><em>Organização</em></li>
+        <li><em>Flexibilidade</em></li>
+        <li><em>Auto-conhecimento</em></li>
+        <li><em>Responsabilidade e Pontualidade</em></li>
+        <li><em>Agir sobre pressão</em></li>
+        <li><em>Trabalhar coletivamente</em></li>
+    </ul>
+</p>
+</div>
+
+<p><h3 id="hobbies"> Dentre as coisas que gosto de fazer estão </h3>
+<ul>
+    <li><em>Jogar jogos rápidos</em></li>
+    <li><em>Sair com os amigos</em></li>
+    <li><em>Praticar socialmente alguns esportes, como futebol e vôlei</em></li>
+</ul>
+
+</p>
+
+<div>
+    <p>
+        <h3 class="descricao">
+        Minhas redes sociais            
+        </h3>
+
+    </p>
+
+</div>
+
+<div id="redes">
+    <a href="https://www.linkedin.com/in/marco-viana2022/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    <a href="https://discordapp.com/users/417134547180716042" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
+    <a href="https://github.com/MarcoViana0303" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&amp;logo=github&amp;logoColor=white"></a>
+</div>
+
+</body>
+
+
+
+
+</html>
