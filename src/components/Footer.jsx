@@ -4,7 +4,7 @@ export default function SocialMedia() {
     const copy = require('clipboard-copy');
 
     const copyButton = () => {
-        copy('marcoviana100@gmail.com')
+        copy('marcoviana.dev@gmail.com')
         alert('Email copiado para a área de transferência!');
     }
     return(
