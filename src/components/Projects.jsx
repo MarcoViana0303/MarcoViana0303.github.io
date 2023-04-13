@@ -1,4 +1,5 @@
 import React from "react";
+import projects from '../projects.json'
 
 export default function Projects(){
     return (
@@ -12,12 +13,12 @@ export default function Projects(){
         
         <div className="project-divs">
 
-<div className="project-unit">Projeto 1</div>
-<div className="project-unit">Projeto 2</div>
-<div className="project-unit">Projeto 3</div>
-<div className="project-unit">Projeto 4</div>
-<div className="project-unit">Projeto 5</div>
-<div className="project-unit">Projeto 6</div>
+{projects.map(
+    (project) => { return <div className="project-unit">
+    <h3>{project.title}</h3>
+    <img src={ require('../photos/projeto-1.png')} className="image-project" alt="" />
+</div>}
+    )}
 
 </div>
         </div>

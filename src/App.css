@@ -294,6 +294,11 @@ header.shadow {
   padding-top: 20%;
 }
 
+.image-project {
+  max-height: 300px;
+  max-width: 300px;
+}
+
 .project-divs {
   height: 400px;
   display: flex;
