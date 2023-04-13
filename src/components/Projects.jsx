@@ -13,12 +13,12 @@ export default function Projects(){
         
         <div className="project-divs">
 
-{projects.map(
+{/* {projects.map(
     (project) => { return <div className="project-unit">
     <h3>{project.title}</h3>
     <img src={ require('../photos/projeto-1.png')} className="image-project" alt="" />
 </div>}
-    )}
+    )} */}
 
 </div>
         </div>
