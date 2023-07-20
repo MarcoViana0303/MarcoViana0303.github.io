@@ -1,4 +1,4 @@
-[
+const projects = [
     {
       "id": 1,
       "title": "Tryunfo",
@@ -15,4 +15,4 @@
     }
   ]
 
-  
+export default projects

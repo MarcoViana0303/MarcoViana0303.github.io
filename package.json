@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.22.9",
     "eslint": "^8.45.0",
     "eslint-plugin-eslint-plugin": "^5.1.1",
     "prop-types": "^15.7.2",

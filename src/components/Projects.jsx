@@ -1,5 +1,5 @@
 import React from "react";
-import projects from '../projects.json'
+import projects from '../mocks/mock.projects'
 
 export default function Projects(){
     return (
@@ -8,9 +8,9 @@ export default function Projects(){
             <h2>Projetos</h2>
             <span>Alguns dos projetos que realizei individualmente ou com uma equipe</span>
         </div>
-    
+
         <div className="heading projects-coming"><h2>Coming soon...</h2>
-        
+
         <div className="project-divs">
 
 {/* {projects.map(
@@ -22,8 +22,8 @@ export default function Projects(){
 
 </div>
         </div>
-       
-       
+
+
         </div>
     )
 };
