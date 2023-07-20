@@ -12,7 +12,7 @@ export default function Description() {
                     <img src="https://www.promoview.com.br/uploads/images/unnamed%2819%29.png" alt="Marco Viana" />
                 </div> */}
                 <div className="about-text">
-                    <div className="about-description"><p><h3>Me chamo Marco, tenho 21 anos e moro em Ferraz de Vasconcelos. Tive meu primeiro contato com a tecnologia aos meus 16 anos de idade, quando cursei Desenvolvimento de Sistemas na Etec. Hoje, apaixonado por programação, estou sempre buscando aperfeiçoar minhas skills enquanto desenvolvo projetos FullStack com a Trybe, uma escola de programação Web. </h3></p></div>
+                    <div className="about-description"><p><h3>Me chamo Marco, tenho 22 anos e moro em Ferraz de Vasconcelos. Tive meu primeiro contato com a tecnologia aos meus 16 anos de idade, quando cursei Desenvolvimento de Sistemas na Etec. Hoje, apaixonado por programação, estou sempre buscando aperfeiçoar minhas skills enquanto desenvolvo projetos FullStack com a Trybe, uma escola de programação Web. </h3></p></div>
                     
         <div className="information">
             <div className="info-box">
