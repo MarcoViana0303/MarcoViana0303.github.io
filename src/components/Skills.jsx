@@ -6,7 +6,7 @@ export default function Skills() {
     <section className="skills" id="skills">
       <div className="heading">
         <h2>Skills</h2>
-        <span>Algumas das tecnologias que pude adquirir conhecimento</span>
+        <span>Tenho experiência em projetos nas seguintes tecnologias</span>
       </div>
       <div className="skills-container">
         <div className="div-skills">
