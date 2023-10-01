@@ -150,9 +150,12 @@ header.shadow {
 }
 
 .home-img img {
-  width: 80%;
-  border: 3px solid;
-  border-radius: 50px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover; /* Garante que a imagem se ajuste ao círculo */
+  border: 3px solid var(--text-color);
+
 }
 
 .home-text span {
@@ -551,6 +554,10 @@ form textarea {
     padding-left: 100%;
   }
 
+  .home-img img {
+    width: 400px;
+    height: 400px;
+  }
 
   }
 
@@ -629,6 +636,11 @@ form textarea {
     order: initial;
   }
 
+  .home-img img {
+    width: 250px;
+    height: 250px;
+  }
+
     .about-container {
     grid-template-columns: 1fr;
     box-shadow: none;
@@ -684,8 +696,8 @@ form textarea {
     }
 
     .home-img img {
-      width: 100%;
-      margin-left: 20px;
+      width: 200px;
+      height: 200px;
     }
   }
 

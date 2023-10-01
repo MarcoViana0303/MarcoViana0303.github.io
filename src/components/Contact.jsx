@@ -30,7 +30,7 @@ export default function Contact() {
                     <input type="text" placeholder="Nome" name='name' />
                     <input type="Email" placeholder="Email" name='email' />
                     <textarea name="message" id="" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
-                    <input type="submit" value="Enviar" className="contact-button" 
+                    <input type="submit" value="Enviar" className="contact-button"
                     onClick={messageForm}/>
                 </form>
             </div>
