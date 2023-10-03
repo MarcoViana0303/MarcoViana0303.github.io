@@ -348,29 +348,96 @@ header.shadow {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-/* .projects-coming {
-  padding-top: 20%;
-}
-
-.image-project {
-  max-height: 300px;
-  max-width: 300px;
+  background-color: #f5f5f5; /* Adicione um fundo de cor clara */
+  padding: 20px; /* Adicione um espaço interno para melhorar a aparência geral */
 }
 
 .project-divs {
-  height: 400px;
   display: flex;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .project-unit {
-  border: 1px var(--main-color) solid;
-  padding: 150px;
-  padding-bottom: 12.8%;
-} */
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* padding: 20px; */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-unit:hover {
+  transform: translateY(-5px);
+}
+
+.image-project {
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: var(--medium-font); /* Tamanho de fonte para o título */
+}
+
+p {
+  font-size: 1rem;
+}
+
+.project-unit a {
+  display: inline-block;
+  margin-top: auto;
+  width: 50%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+
+.project-unit a:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center; /* Centraliza horizontalmente */
+}
+
+.page-numbers {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Centraliza horizontalmente */
+}
+
+.page-numbers li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.page-numbers li:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Estilizando a parte de contatos */
 .contact {
@@ -666,6 +733,22 @@ form textarea {
     .contact-button {
     margin-left: 25%;
   }
+
+  .project-divs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .project-unit {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-unit a {
+    width: 100%;
+    margin: 0;
+  }
+
   }
 
   @media (max-width: 340px) {
