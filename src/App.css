@@ -154,8 +154,8 @@ header.shadow {
 }
 
 .home-img img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   object-fit: cover; /* Garante que a imagem se ajuste ao círculo */
   border: 3px solid var(--text-color);

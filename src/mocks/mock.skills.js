@@ -31,6 +31,22 @@ const skills = [
     name: "MySQL",
     image: 'mysql.png'
   },
+  {
+    name: "MongoDB",
+    image: 'mongodb.png'
+  },
+  {
+    name: "NodeJS",
+    image: 'nodejs.png'
+  },
+  {
+    name: "TypeScript",
+    image: 'typescript.png'
+  },
+  {
+    name: "Python",
+    image: 'python.png'
+  },
 ]
 
 export default skills
