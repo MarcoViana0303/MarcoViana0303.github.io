@@ -55,6 +55,13 @@ const projects = [
       "image": require('../photos/projects/projeto-8.png'),
       "link": "https://github.com/MarcoViana0303/react-testing-library"
     },
+    {
+      "id": 9,
+      "title": "TrybeTunes",
+      "description": "A aplicação faz uma requisição à uma API de músicas. Nela, é possível pesquisar por álbuns e ouvir um trecho da música escolhida.",
+      "image": require('../photos/projects/projeto-9.png'),
+      "link": "https://github.com/MarcoViana0303/project-trybetunes"
+    },
   ]
 
 export default projects;

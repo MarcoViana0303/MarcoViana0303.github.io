@@ -204,7 +204,7 @@ header.shadow {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
@@ -236,6 +236,10 @@ header.shadow {
 .information {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+
+  margin: 1rem 10rem;
+
 }
 
 .information .info-box {
@@ -408,7 +412,7 @@ p {
 
 .pagination {
   margin-top: 20px;
-  text-align: center;
+  justify-content: center;
 }
 
 .page-numbers {
@@ -427,15 +431,11 @@ p {
   transition: background-color 0.3s ease;
 }
 
+.page-numbers li.active,
 .page-numbers li:hover {
   background-color: #007bff;
   border-color: #007bff;
   color: white;
-}
-
-.pagination-container {
-  display: flex;
-  justify-content: center;
 }
 
 
@@ -567,6 +567,12 @@ form textarea {
   }
 
   /* Parte responsável pela responsividade */
+  @media (max-width: 1280px) {
+    .information {
+      margin: 0;
+    }
+  }
+
   @media (max-width: 1120px){
     .menu-section {
       width: 100%;
@@ -624,6 +630,10 @@ form textarea {
   .home-img img {
     width: 400px;
     height: 400px;
+  }
+
+  .information {
+    margin: 0;
   }
 
   }

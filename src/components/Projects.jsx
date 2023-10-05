@@ -14,18 +14,15 @@ export default function Projects() {
         <span>Alguns dos projetos que realizei individualmente ou com uma equipe</span>
       </div>
 
-      <div className="heading">
+      <div className="project-divs">
 
-        <div className="project-divs">
-          <div className="pagination-container">
-            <ProjectPagination
-              projects={projects}
-              currentPage={currentPage}
-              itemsPerPage={itemsPerPage}
-              setCurrentPage={setCurrentPage}
-            />
-          </div>
-        </div>
+          <ProjectPagination
+            projects={projects}
+            currentPage={currentPage}
+            itemsPerPage={itemsPerPage}
+            setCurrentPage={setCurrentPage}
+          />
+
       </div>
     </div>
   )

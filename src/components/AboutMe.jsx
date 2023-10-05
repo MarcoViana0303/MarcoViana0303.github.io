@@ -20,7 +20,7 @@ function AboutMe() {
         <a href="https://github.com/MarcoViana0303"><i className="bx bxl-github"></i></a>
       </div>
       <div className="home-img">
-        <img src={require('../photos/photoHome.jpg')} className='marquinho' alt="Marco Viana" />
+        <img src={require('../photos/photoHome2.jpeg')} className='marquinho' alt="Marco Viana" />
       </div>
       <div className="home-text">
         <span>Olá, eu me chamo</span>
