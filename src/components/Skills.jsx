@@ -13,7 +13,7 @@ export default function Skills() {
           {MockSkills.map((skill) => {
             return <div className="skill-card">
               <div className="skill-image">
-                <img src={require(`../photos/${skill.image}`)} alt={skill.name} />
+                <img src={require(`../photos/stacks/${skill.image}`)} alt={skill.name} />
               </div>
               <h3>{skill.name}</h3>
             </div>
