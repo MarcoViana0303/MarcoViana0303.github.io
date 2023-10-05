@@ -145,8 +145,12 @@ header.shadow {
   align-items: center;
 }
 
-.home-img {
+/* .home-img {
   order: 3;
+} */
+
+.home-text {
+  order: 2;
 }
 
 .home-img img {
@@ -180,6 +184,7 @@ header.shadow {
 .social {
   display: flex;
   flex-direction: column;
+  order: 1;
 }
 
 .social a {
