@@ -62,6 +62,27 @@ const projects = [
       "image": require('../photos/projects/projeto-9.png'),
       "link": "https://github.com/MarcoViana0303/project-trybetunes"
     },
+    {
+      "id": 10,
+      "title": "Talker Manager",
+      "description": "Aplicação para cadastro de palestrantes utilizando API de um CRUD.",
+      "image": require('../photos/projects/projeto-11.png'),
+      "link": "https://github.com/MarcoViana0303/project-talker-manager"
+    },
+    {
+      "id": 11,
+      "title": "Unit Tests",
+      "description": "Projeto desenvolvido para praticar a implementação de testes unitários em funções Javascript.",
+      "image": require('../photos/projects/projeto-12.png'),
+      "link": "https://github.com/MarcoViana0303/unit-tests"
+    },
+    {
+      "id": 12,
+      "title": "Trybesmith",
+      "description": "Loja de itens medievais, como aquelas espadas feitas sob encomenda para uma pessoa específica, no formato de uma API, utilizando Typescript e Sequelize.",
+      "image": require('../photos/projects/projeto-10.png'),
+      "link": "https://github.com/MarcoViana0303/project-trybesmith"
+    },
   ]
 
 export default projects;

@@ -29,14 +29,15 @@ export default function ProjectPagination({
           .slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
           .map((project) => (
             <div className="project-unit" key={project.id}>
-              <div className="project-content">
-                <h3>{project.title}</h3>
-                <img src={project.image} className="image-project" alt="" />
+              <h3>{project.title}</h3>
+              <img src={project.image} className="image-project" alt="" />
                 <p>{project.description}</p>
-              </div>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                Ver Projeto
-              </a>
+
+                <div className="button-container">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    Ver Projeto
+                  </a>
+                </div>
             </div>
           ))}
       </div>
