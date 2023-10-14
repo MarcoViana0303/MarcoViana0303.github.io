@@ -83,6 +83,27 @@ const projects = [
       "image": require('../photos/projects/projeto-10.png'),
       "link": "https://github.com/MarcoViana0303/project-trybesmith"
     },
+    {
+      "id": 13,
+      "title": "Pro-Filer",
+      "description": "Trabalhei em uma aplicação com uma interface de linha de comando (CLI) que recebe como entrada um caminho (diretório ou arquivo) e gera um relatório com informações sobre o caminho informado.",
+      "image": require('../photos/projects/projeto-13.png'),
+      "link": "https://github.com/MarcoViana0303/project-profiler"
+    },
+    {
+      "id": 14,
+      "title": "Blogs API",
+      "description": "Desenvolvidos uma API e um banco de dados para a produção de conteúdo para um blog. A aplicação foi desenvolvida em Node.js usando o pacote sequelize para fazer um CRUD de posts, no objetivo de criar endpoints que estarão conectados ao banco de dados seguindo os princípios do REST.",
+      "image": require('../photos/projects/projeto-14.png'),
+      "link": "https://github.com/MarcoViana0303/project-blogs-api"
+    },
+    {
+      "id": 15,
+      "title": "MongoDB Commerce",
+      "description": "Nesse projeto, trabalhei com o banco de dados commerce, que contém dados do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas.",
+      "image": require('../photos/projects/projeto-15.jpg'),
+      "link": "https://github.com/MarcoViana0303/project-mongodb-commerce"
+    },
   ]
 
 export default projects;
