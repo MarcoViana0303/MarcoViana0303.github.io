@@ -104,6 +104,27 @@ const projects = [
       "image": require('../photos/projects/projeto-15.jpg'),
       "link": "https://github.com/MarcoViana0303/project-mongodb-commerce"
     },
+    {
+      "id": 16,
+      "title": "Tech News",
+      "description": "Implementei um projeto que tem como principal objetivo fazer consultas em notícias sobre tecnologia. As notícias podem ser obtidas através da raspagem do blog da Trybe.",
+      "image": require('../photos/projects/projeto-16.png'),
+      "link": "https://github.com/MarcoViana0303/project-tech-news"
+    },
+    {
+      "id": 17,
+      "title": "Projeto Osten Moove",
+      "description": "O objetivo deste projeto era criar um sistema de reserva de ferramentas destinado a mecânicos, fornecendo uma solução eficaz para o gerenciamento de ferramentas e suas reservas.",
+      "image": require('../photos/projects/projeto-17.png'),
+      "link": "Projeto referente ao desafio prático - Osten Moove"
+    },
+    {
+      "id": 18,
+      "title": "All for One",
+      "description": "Neste projeto, usei um banco de dados desenvolvido pela Microsoft para revisar e consolidar todos os principais conceitos de SQL. O banco de dados utilizado foi o Northwind.",
+      "image": require('../photos/projects/projeto-18.png'),
+      "link": "https://github.com/MarcoViana0303/project-all-for-one"
+    },
   ]
 
 export default projects;
